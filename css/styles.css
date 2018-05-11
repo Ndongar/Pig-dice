@@ -1,5 +1,7 @@
 div.container {
   width: 100%;
+  background-image: url("../e.jpeg");
+  background-size: cover;
 }
 .header {
   background-image: url("../giphy.gif");
@@ -20,4 +22,11 @@ div.container {
   color: black;
   font-size: 30px;
 
+}
+strong {
+  color: #0060CA;
+}
+footer {
+  display: block;
+  padding: 50px;
 }
