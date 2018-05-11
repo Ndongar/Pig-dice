@@ -3,6 +3,7 @@
 <head>
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/scripts.js"></script>
   <title>Pig dice</title>
@@ -11,19 +12,22 @@
   <div class="container">
 
 <!-- header -->
-    <div class="row">
+    <div class="row header">
       <h1>Pig Dice</h1>
     </div>
 <!-- end of header -->
 
 
 <!-- beginning of column 2 -->
-    <div class="row">
+    <div class="row player">
+      <div class="text">
+      <p style="text-align:center;"><span>NB:</span>If the dice is juggled and a player gets a score of one,the total score adds up to zero</p>
+    </div>
       <div class="col-md-6">
-        <h2>Player 1</h2>
+        <h2 style="border:4px solid Black; border-radius: 10px; text-align: center;">Player 1</h2>
       </div>
       <div class="col-md-6">
-        <h2>Player 2</h2>
+        <h2 style="border:4px solid black; border-radius: 10px; text-align: center;">Player 2</h2>
       </div>
     </div>
 <!-- end of column 2 -->
@@ -44,10 +48,10 @@
 <!-- beginning of column 4 -->
     <div class="row">
       <div class="col-md-6">
-        <h3>score:</h3>
+        <h3>Total score:</h3>
       </div>
       <div class="col-md-6">
-        <h3>score:</h3>
+        <h3>Total score:</h3>
       </div>
     </div>
 <!-- end of column 4 -->
@@ -55,15 +59,17 @@
 <!-- beginnig of column 5 -->
 
     <div class="row">
-      <div class="col-md-4">
-        <h3>Roll dice</h3>
-      </div>
-      <div class="col-md-4">
-        <img src=""
-      </div>
-
-      <div class="col-md-4">
-        <h3>Pass turn</h3>
+      <div class="dice">
+        <div class="col-md-5">
+        <button class="btnPage">Roll dice</button>
+        </div>
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-5">
+        <button class="btnPage">Pass turn</button>
+        </div>
+        <div class="col-md-1">
+        </div>
       </div>
 
     </div>
