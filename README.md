@@ -1,6 +1,6 @@
-# Assignment(IP): Ping Pong
+# Assignment(IP): Ping Dice
 ## Description
-Moringa Prep independent project.This is a game that helps refresh someones mind.Ping Pong is a creative game made for everyone.
+Moringa Prep independent project.This is a game that inolves playing around with a dice.Pig Dice involves two people who juggle around with the dice and the highest score is 100.
 
 ## Author(s)
 [Wangui Ndonga](https://github.com/Ndongar).
