@@ -1,4 +1,4 @@
-# Assignment(IP): Ping Dice
+# Assignment(IP): Pig Dice
 ## Description
 Moringa Prep independent project.This is a game that inolves playing around with a dice.Pig Dice involves two people who juggle around with the dice till the highest score 100 is scored.Pig dice helps in making one's mind active and fast in critical thinking.
 
